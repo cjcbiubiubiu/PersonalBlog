@@ -1,0 +1,69 @@
+.every_day {
+    background: #fff;
+    width: 96%;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px #888;
+    padding: 10px 15px;
+}
+
+.every_day > span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: slateblue;
+}
+
+.every_day .iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.article_list {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.article {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px #888;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.article_title {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #13102b;
+    padding: 16px 10px 5px 10px;
+}
+
+.article_title:hover {
+    color: #337ab7;
+}
+
+.article_content {
+    font-size: 14px;
+    color: #13102b;
+    padding: 0px 10px 20px 10px;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.article_foot {
+    color: #ccc;
+    background: #1f1f1f;
+    width: 100%;
+    padding: 8px 15px;
+    font-size: 14px;
+}
